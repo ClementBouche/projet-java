@@ -1,5 +1,5 @@
 # Projet info
 
-## Menu
+## Analyse
 
 * [Fonctionnalités](./analyse/features.md)
