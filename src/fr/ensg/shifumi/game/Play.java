@@ -1,18 +1,15 @@
 package fr.ensg.shifumi.game;
 
-
 public class Play {
-	
+
 	public static final String PIERRE = "Pierre";
 
 	public static final String FEUILLE = "Feuille";
 
 	public static final String CISEAUX = "Ciseaux";
-	
+
 	private static final String[] computerChoices = {PIERRE, FEUILLE, CISEAUX};
-	
-	User user;
-	
+
 	public Play() {
 	}
 	

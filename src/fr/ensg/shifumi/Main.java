@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import fr.ensg.shifumi.command.Commands;
 import fr.ensg.shifumi.command.model.Command;
+import fr.ensg.shifumi.game.Shifumi;
 
 public class Main {
 	
@@ -12,6 +13,11 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		System.out.println("======================================================");
+		System.out.println("Chargement en cours....");
+		Shifumi.getInstance();
+		System.out.println("Chargement terminé !!!!");
+
 		System.out.println(getWelcomeMessage());
 
 		Scanner scanner = new Scanner(System.in);
@@ -25,7 +31,11 @@ public class Main {
 			if (command != null) {
 				command.exec(commandLine.split(" "));
 			} else {
-				System.out.println("Commande inconnue");
+				if (commandLine.equals("")) {
+					continue;
+				} else {
+					System.out.println("Commande inconnue");
+				}
 			}
 			System.out.print("shifumi$>");
 		}

@@ -31,7 +31,7 @@ public class Commands {
 			// play command
 			{
 				List<Parameter> params = new ArrayList<Parameter>();
-				params.add(new Parameter("signe", "s", "le signe à joué", true));
+				params.add(new Parameter("signe", "s", "le signe à jouer", true));
 				Command shifumiCommand = new PlayCommand("play", "Joué à Shifumi", params);
 				commands.add(shifumiCommand);
 			}
