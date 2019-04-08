@@ -5,8 +5,8 @@ import java.util.List;
 import fr.ensg.shifumi.command.model.Command;
 import fr.ensg.shifumi.command.model.Parameter;
 import fr.ensg.shifumi.game.Shifumi;
-import fr.ensg.shifumi.game.User;
-import fr.ensg.shifumi.game.UserManager;
+import fr.ensg.shifumi.game.manager.UserManager;
+import fr.ensg.shifumi.game.model.User;
 
 public class LoginCommand extends Command {
 

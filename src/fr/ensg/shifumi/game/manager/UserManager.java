@@ -1,4 +1,6 @@
-package fr.ensg.shifumi.game;
+package fr.ensg.shifumi.game.manager;
+
+import fr.ensg.shifumi.game.model.User;
 
 public class UserManager {
 

@@ -4,9 +4,9 @@ import java.util.List;
 
 import fr.ensg.shifumi.command.model.Command;
 import fr.ensg.shifumi.command.model.Parameter;
-import fr.ensg.shifumi.game.Play;
 import fr.ensg.shifumi.game.Shifumi;
-import fr.ensg.shifumi.game.User;
+import fr.ensg.shifumi.game.model.Play;
+import fr.ensg.shifumi.game.model.User;
 
 public class PlayCommand extends Command {
 

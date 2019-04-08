@@ -1,5 +1,7 @@
 package fr.ensg.shifumi.game;
 
+import fr.ensg.shifumi.game.model.User;
+
 public class Shifumi {
 	
 	User loggedUser;

@@ -1,4 +1,4 @@
-package fr.ensg.shifumi.game;
+package fr.ensg.shifumi.game.model;
 
 public class Play {
 
