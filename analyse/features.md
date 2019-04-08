@@ -20,3 +20,12 @@ Fermer:
   * failure: l'application m'informe que le mot de passe ou le login est incorrect
 * je rentre la commande logout
   * l'application m'informe que je suis déconnecté 
+
+## Joué à Shifumi
+
+* je tape la commande 
+```
+play --signe=Feuille
+```
+* le logiciel joue un signe et détermine qui à gagné
+  * le logiciel affiche le resultat du jeu
